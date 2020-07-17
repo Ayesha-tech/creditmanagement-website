@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Home</title>
-    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/css/style1.css">
 </head>
 <body >
 <div id="header">
