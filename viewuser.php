@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect('localhost','root','','company');
+$con=mysqli_connect('localhost','root','','comp');
 //mysqli_select_db($con,'id8930489_spark');
 $name1=$_SESSION['name'];
 $q="select name from user where not name='$name1'";
