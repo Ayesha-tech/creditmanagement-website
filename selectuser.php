@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect('localhost','root','','company');
+$con=mysqli_connect('localhost','root','','comp');
 //mysqli_select_db($con,'id8930489_spark');
 $q="select name from user";
 $result=mysqli_query($con,$q);
