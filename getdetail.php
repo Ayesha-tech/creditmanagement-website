@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$con=mysqli_connect('localhost','root','','company');
+$con=mysqli_connect('localhost','root','','comp');
 
 $q="select * from user ";
 $result=mysqli_query($con,$q);
